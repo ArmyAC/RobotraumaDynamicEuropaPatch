@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="" identifier="transform" description="" type="transform" limbspecific="false" indicatorlimb="Torso" showiconthreshold="2" showinhealthscannerthreshold="100" treatmentthreshold="50" minstrength="0" maxstrength="1" affectmachines="false" iconcolors="0,100,0,255;100,0,0,255">
+    <!--Conversion rate adjusted relative to number of hits, more limbs lower number otherwise raise the max strenght of the affliction to scale the health drain slower.-->
+    <Effect minstrength="0" maxstrength="1">
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional acidburn="gt 0" />
+        <ReduceAffliction identifier="acidburn" amount="1" />
+        <Affliction identifier="racidburn" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional bitewounds="gt 0" />
+        <ReduceAffliction identifier="bitewounds" amount="1" />
+        <Affliction identifier="rbitewounds" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional blunttrauma="gt 0" />
+        <ReduceAffliction identifier="blunttrauma" amount="1" />
+        <Affliction identifier="rblunttrauma" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional burn="gt 0" />
+        <ReduceAffliction type="burn" amount="1" />
+        <Affliction identifier="rburn" amount="0.7" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional explosiondamage="gt 0" />
+        <ReduceAffliction identifier="explosiondamage" amount="1" />
+        <Affliction identifier="rexplosiondamage" amount="0.8" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional gunshotwound="gt 0" />
+        <ReduceAffliction identifier="gunshotwound" amount="1" />
+        <Affliction identifier="rgunshotwound" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional internaldamage="gt 0" />
+        <ReduceAffliction identifier="internaldamage" amount="1" />
+        <Affliction identifier="rinternaldamage1" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" disabledeltatime="true">
+        <Conditional lacerations="gt 0" />
+        <ReduceAffliction identifier="lacerations" amount="1" />
+        <Affliction identifier="rlacerations" amount="1" />
+      </StatusEffect>
+    </Effect>
+  </Affliction>
+  <!--
+  
+  Robot specific status
+  
+  -->
+  <!-- 
+  
+  Internal Damage
+
+  -->
+  <InternalDamage name="" identifier="rinternaldamage1" description="" type="rdamage" causeofdeathdescription="causeofdeathdescription.rinternaldamage1" selfcauseofdeathdescription="self_causeofdeathdescription.rinternaldamage1" limbspecific="false" indicatorlimb="Torso" maxstrength="300" damageoverlayalpha="0.1" healcostmultiplier="2.25">
+    <Description textidentifier="afflictiondescription.rinternaldamage1.low" minstrength="0" maxstrength="30" />
+    <Description textidentifier="afflictiondescription.rinternaldamage1" minstrength="30" maxstrength="50" />
+    <Description textidentifier="afflictiondescription.rinternaldamage1.high" minstrength="50" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="30" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="5" />
+    <Effect minstrength="30" maxstrength="50" MinGrainStrength="0.0" MaxGrainStrength="2.0" GrainColor="153,236,243,1" MinBuffMultiplier="1.0" MaxBuffMultiplier="0.75" multiplybymaxvitality="false" minvitalitydecrease="5" maxvitalitydecrease="15">
+      <StatusEffect target="Character" interval="12" setvalue="true">
+        <Sound file="Content/Items/Electricity/Zap3.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap4.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap5.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="swirlysmoke" ParticleAmount="2" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+        <ParticleEmitter drawontop="true" particle="electricshock" distancemin="0" distancemax="10" ParticleAmount="2" anglemin="0" anglemax="360" scalemin="0.04" scalemax="0.1" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="50" maxstrength="300" MinGrainStrength="2.0" MaxGrainStrength="3.0" GrainColor="153,236,243,1" MinBuffMultiplier="0.75" MaxBuffMultiplier="0.5" multiplybymaxvitality="false" minvitalitydecrease="15" maxvitalitydecrease="80">
+      <StatusEffect target="Character" interval="10" setvalue="true">
+        <Affliction identifier="stun" duration="1" probability="0.25" />
+        <Sound file="Content/Items/Electricity/Zap1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap2.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap3.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap4.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap5.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="DarkSmoke" ParticleAmount="2" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+        <ParticleEmitter drawontop="true" particle="spark" distancemin="0" distancemax="30" anglemin="0" anglemax="360" ParticleAmount="5" velocitymin="10" velocitymax="50" scalemin="0.4" scalemax="0.7" />
+        <ParticleEmitter drawontop="true" particle="electricshock" distancemin="0" distancemax="10" ParticleAmount="2" anglemin="0" anglemax="360" scalemin="0.04" scalemax="0.1" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,768,128,128" color="195,136,60,255" origin="0,0" />
+  </InternalDamage>
+  <!-- 
+  
+  Blunt Force Trauma
+
+  -->
+  <InternalDamage name="" identifier="rblunttrauma" description="" type="rdamage" causeofdeathdescription="causeofdeathdescription.rblunttrauma" selfcauseofdeathdescription="self_causeofdeathdescription.rblunttrauma" limbspecific="false" indicatorlimb="Torso" maxstrength="300" damageoverlayalpha="0.5" WeaponsSkillGain="1.0">
+    <Description textidentifier="afflictiondescription.rblunttrauma.low" minstrength="0" maxstrength="40" />
+    <Description textidentifier="afflictiondescription.rblunttrauma" minstrength="40" maxstrength="80" />
+    <Description textidentifier="afflictiondescription.rblunttrauma.high" minstrength="80" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="40" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="7" />
+    <Effect minstrength="40" maxstrength="300" multiplybymaxvitality="false" minspeedmultiplier="0.85" maxspeedmultiplier="0.05" minvitalitydecrease="7" maxvitalitydecrease="80" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,896,128,128" color="195,136,60,255" origin="0,0" />
+  </InternalDamage>
+  <!-- 
+  
+  Lacerations
+
+  -->
+  <InternalDamage name="" identifier="rlacerations" description="" type="rdamage" causeofdeathdescription="causeofdeathdescription.rlacerations" selfcauseofdeathdescription="self_causeofdeathdescription.rlacerations" limbspecific="false" indicatorlimb="Torso" maxstrength="300" damageoverlayalpha="2" WeaponsSkillGain="1.0">
+    <Description textidentifier="afflictiondescription.rlacerations.low" minstrength="0" maxstrength="40" />
+    <Description textidentifier="afflictiondescription.rlacerations" minstrength="40" maxstrength="50" />
+    <Description textidentifier="afflictiondescription.rlacerations.high" minstrength="50" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="300" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="80" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="896,896,128,128" color="195,136,60,255" origin="0,0" />
+  </InternalDamage>
+  <!-- 
+  
+  Bite Wounds
+
+  -->
+  <InternalDamage name="" identifier="rbitewounds" description="" type="rdamage" causeofdeathdescription="causeofdeathdescription.rbitewounds" selfcauseofdeathdescription="self_causeofdeathdescription.rbitewounds" limbspecific="false" indicatorlimb="Torso" maxstrength="300" damageoverlayalpha="2">
+    <Description textidentifier="afflictiondescription.rbitewounds.low" minstrength="0" maxstrength="40" />
+    <Description textidentifier="afflictiondescription.rbitewounds" minstrength="40" maxstrength="80" />
+    <Description textidentifier="afflictiondescription.rbitewounds.high" minstrength="80" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="300" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="80" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,512,128,128" color="195,136,60,255" origin="0,0" />
+  </InternalDamage>
+  <!-- 
+  
+  Gunshot Wounds
+
+  -->
+  <InternalDamage name="" identifier="rgunshotwound" description="" type="rdamage" causeofdeathdescription="causeofdeathdescription.rgunshotwound" selfcauseofdeathdescription="self_causeofdeathdescription.rgunshotwound" limbspecific="false" indicatorlimb="Torso" maxstrength="300" karmachangeonapplied="-1" damageoverlayalpha="2" WeaponsSkillGain="1.0">
+    <Description textidentifier="afflictiondescription.rgunshotwound.low" minstrength="0" maxstrength="35" />
+    <Description textidentifier="afflictiondescription.rgunshotwound" minstrength="35" maxstrength="60" />
+    <Description textidentifier="afflictiondescription.rgunshotwound.high" minstrength="60" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="35" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="7" />
+    <Effect minstrength="35" maxstrength="60" multiplybymaxvitality="false" minvitalitydecrease="7" maxvitalitydecrease="15">
+      <StatusEffect target="Character" interval="14" setvalue="true">
+        <Sound file="Content/Items/Electricity/Zap1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap2.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="spark" distancemin="0" distancemax="30" anglemin="0" anglemax="360" ParticleAmount="5" velocitymin="10" velocitymax="50" scalemin="0.4" scalemax="0.7" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="60" maxstrength="300" multiplybymaxvitality="false" minvitalitydecrease="15" maxvitalitydecrease="80">
+      <StatusEffect target="Character" interval="10" setvalue="true">
+        <Sound file="Content/Items/Electricity/Zap1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap2.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap3.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap4.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap5.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="electricshock" distancemin="0" distancemax="10" ParticleAmount="2" anglemin="0" anglemax="360" scalemin="0.04" scalemax="0.1" />
+        <ParticleEmitter drawontop="true" particle="swirlysmoke" ParticleAmount="2" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,768,128,128" color="195,60,60,255" origin="0,0" />
+  </InternalDamage>
+  <!-- 
+  
+  Explosion Damage
+
+  -->
+  <InternalDamage name="" identifier="rexplosiondamage" description="" type="rdamage" causeofdeathdescription="causeofdeathdescription.rexplosiondamage" selfcauseofdeathdescription="self_causeofdeathdescription.rexplosiondamage" limbspecific="false" indicatorlimb="Torso" maxstrength="300" damageoverlayalpha="1" healcostmultiplier="1.5" WeaponsSkillGain="1.0">
+    <Description textidentifier="afflictiondescription.rexplosiondamage.low" minstrength="0" maxstrength="25" />
+    <Description textidentifier="afflictiondescription.rexplosiondamage" minstrength="25" maxstrength="40" />
+    <Description textidentifier="afflictiondescription.rexplosiondamage.high" minstrength="40" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="300" MinChromaticAberration="0.0" MaxChromaticAberration="6.0" ScreenEffectFluctuationFrequency="1.0" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="80" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="896,0,128,128" color="195,136,60,255" origin="0,0" />
+  </InternalDamage>
+  <!-- 
+  
+  Burn
+
+  -->
+  <Burn name="" identifier="rburn" description="" type="rburn" causeofdeathdescription="causeofdeathdescription.rburn" selfcauseofdeathdescription="self_causeofdeathdescription.rburn" limbspecific="false" indicatorlimb="Torso" maxstrength="300" burnoverlayalpha="1" WeaponsSkillGain="1.0">
+    <Description textidentifier="afflictiondescription.rburn.low" minstrength="0" maxstrength="40" />
+    <Description textidentifier="afflictiondescription.rburn" minstrength="40" maxstrength="70" />
+    <Description textidentifier="afflictiondescription.rburn.high" minstrength="70" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="40" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="5" />
+    <Effect minstrength="40" maxstrength="70" multiplybymaxvitality="false" minspeedmultiplier="1.0" maxspeedmultiplier="0.35" minvitalitydecrease="5" maxvitalitydecrease="25">
+      <StatusEffect target="Character" setvalue="true">
+        <ParticleEmitter drawontop="true" particle="swirlysmoke" particlespersecond="2" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="70" maxstrength="300" multiplybymaxvitality="false" minspeedmultiplier="0.35" maxspeedmultiplier="0.1" minvitalitydecrease="25" maxvitalitydecrease="80">
+      <StatusEffect target="Character" setvalue="true">
+        <ParticleEmitter drawontop="true" particle="DarkSmoke" particlespersecond="2" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0" />
+  </Burn>
+  <!-- 
+  
+  Acid Burn
+
+  -->
+  <AcidBurn name="" identifier="racidburn" description="" type="racidburn" causeofdeathdescription="causeofdeathdescription.racidburn" selfcauseofdeathdescription="self_causeofdeathdescription.racidburn" limbspecific="false" indicatorlimb="Torso" maxstrength="300" burnoverlayalpha="0" healcostmultiplier="2.25" WeaponsSkillGain="1.0">
+    <Description textidentifier="afflictiondescription.racidburn.low" minstrength="0" maxstrength="30" />
+    <Description textidentifier="afflictiondescription.racidburn" minstrength="30" maxstrength="60" />
+    <Description textidentifier="afflictiondescription.racidburn.high" minstrength="60" maxstrength="300" />
+    <Effect minstrength="0" maxstrength="300" MinGrainStrength="0.0" MaxGrainStrength="2.0" GrainColor="187,223,193,1" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="80" />
+    <icon texture="Content/UI/CommandUIBackground.png" sourcerect="640,768,128,128" color="84,171,90,255" origin="0,0" />
+  </AcidBurn>
+</Afflictions>

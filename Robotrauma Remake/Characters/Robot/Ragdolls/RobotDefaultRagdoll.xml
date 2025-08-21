@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Ragdoll type="Robot" Texture="%ModDir%/Characters/Human/Human_robotmale.png" Color="255,255,255,255" SpritesheetOrientation="0" LimbScale="1" JointScale="1" TextureScale="1" SourceRectScale="1" ColliderHeightFromFloor="45" ImpactTolerance="50" CanEnterSubmarine="True" CanWalk="False" Draggable="True" MainLimb="Torso">
+  <collider radius="42" width="1" />
+  <limb id="0" name="" type="Torso" height="85" width="85" notes="">
+    <sprite texture="" sourcerect="0, 0, 100, 100" />
+  </limb>
+  <limb id="1" name="" type="Head" height="85" width="85" notes="">
+    <sprite texture="" sourcerect="0, 100, 100, 100" />
+  </limb>
+</Ragdoll>

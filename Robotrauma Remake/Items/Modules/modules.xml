@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="SwimingSpeedModule" category="Misk" maxstacksize="1" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem, medical" useinhealthinterface="true" spritecolor="255,255,255,255" InventoryIconColor="255,255,255,255" scale="0.25" impactsoundtag="impact_metal_light">
+    <PreferredContainer secondary="storagecab" minamount="1" maxamount="1" spawnprobability="0.25" notcampaign="true" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.1" />
+    <Price baseprice="1200">
+      <Price storeidentifier="merchantoutpost" multiplier="1.1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantresearch" multiplier="0.8" minavailable="3" />
+      <Price storeidentifier="merchantmilitary" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1.2" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="signalcomp.png" depth="0.8" sourcerect="225,33,36,36" origin="0.5,0.5" />
+    <Body width="36" height="36" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect type="OnUse" target="This" setvalue="true">
+        <Sound file="%ModDir%/Items/Modules/module_insertion.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnSuccess" target="Character" duration="1" Comparison="And">
+        <Conditional ismale="false" />
+        <Conditional isfemale="false" />
+        <Affliction identifier="SwimingSpeedModuleBuff" amount="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This">
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="" identifier="WalkSpeedModule" category="Misk" maxstacksize="1" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem, medical" useinhealthinterface="true" spritecolor="255,255,255,255" InventoryIconColor="255,255,255,255" scale="0.25" impactsoundtag="impact_metal_light">
+    <PreferredContainer secondary="storagecab" minamount="1" maxamount="1" spawnprobability="0.25" notcampaign="true" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.1" />
+    <Price baseprice="1200">
+      <Price storeidentifier="merchantoutpost" multiplier="1.1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantresearch" multiplier="0.8" minavailable="3" />
+      <Price storeidentifier="merchantmilitary" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1.2" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="signalcomp.png" depth="0.8" sourcerect="225,33,36,36" origin="0.5,0.5" />
+    <Body width="36" height="36" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect type="OnUse" target="This" setvalue="true">
+        <Sound file="%ModDir%/Items/Modules/module_insertion.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnSuccess" target="Character" duration="1" Comparison="And">
+        <Conditional ismale="false" />
+        <Conditional isfemale="false" />
+        <Affliction identifier="WalkSpeedModuleBuff" amount="0.2" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This">
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+  <Item name="" identifier="RobotWeightingDevice" category="Misk" maxstacksize="1" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem, medical" useinhealthinterface="true" spritecolor="255,255,255,255" InventoryIconColor="255,255,255,255" scale="0.25" impactsoundtag="impact_metal_light">
+    <PreferredContainer secondary="storagecab" minamount="1" maxamount="1" spawnprobability="0.25" notcampaign="true" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.1" />
+    <Price baseprice="2500">
+      <Price storeidentifier="merchantoutpost" multiplier="1.1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantresearch" multiplier="0.8" minavailable="3" />
+      <Price storeidentifier="merchantmilitary" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1.2" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="signalcomp.png" depth="0.8" sourcerect="225,33,36,36" origin="0.5,0.5" />
+    <Body width="36" height="36" density="15" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+      <StatusEffect type="OnUse" target="This" setvalue="true">
+        <Sound file="%ModDir%/Items/Modules/module_insertion.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnSuccess" target="Character" duration="1" Comparison="And">
+        <Conditional ismale="false" />
+        <Conditional isfemale="false" />
+        <Affliction identifier="RobotWeightingDeviceBuff" amount="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This">
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+  </Item>
+</Items>

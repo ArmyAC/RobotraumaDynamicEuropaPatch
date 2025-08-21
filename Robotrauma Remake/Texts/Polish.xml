@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Polish" nowhitespace="false" translatedname="Polski">
+  <robotmale>Robot</robotmale>
+  <!-- /// Afflictions /// !-->
+  <afflictionname.powerlow>Głód Energetyczny</afflictionname.powerlow>
+  <afflictionname.rinternaldamage>Uszkodzenie przez Wodę</afflictionname.rinternaldamage>
+  <afflictionname.robotinfection>Floralny Pasożyt</afflictionname.robotinfection>
+  <afflictionname.robotfast>Przeładowanie</afflictionname.robotfast>
+  <afflictionname.scoutdodge>Ładunek Uniku</afflictionname.scoutdodge>
+  <afflictionname.medicheal>Ładunek Leczący</afflictionname.medicheal>
+  <afflictionname.mediccharge>Ładunek Umiejętności</afflictionname.mediccharge>
+  <causeofdeathdescription.robotpower>Bateria została nieodwracalnie uszkodzona.</causeofdeathdescription.robotpower>
+  <self_causeofdeathdescription.robotpower>Wyładowałeś się do zera i twoja bateria została nieodwracalnie uszkodzona.</self_causeofdeathdescription.robotpower>
+  <afflictiondescription.robotpower.low>Twój akumulator jest wystarczająco naładowany, by zasilić systemy.</afflictiondescription.robotpower.low>
+  <afflictiondescription.robotpower>Twój akumulator się wyczerpuje.</afflictiondescription.robotpower>
+  <causeofdeathdescription.rinternaldamage>Zginął z powodu uszkodzeń wewnętrznych spowodowanych wodą.</causeofdeathdescription.rinternaldamage>
+  <self_causeofdeathdescription.rinternaldamage>Uległeś wewnętrznym uszkodzeniom spowodowanym wodą.</self_causeofdeathdescription.rinternaldamage>
+  <afflictiondescription.rinternaldamage.low>Z twojej klatki piersiowej wydobywają się iskry.</afflictiondescription.rinternaldamage.low>
+  <afflictiondescription.rinternaldamage>Wiele wewnętrznych komponentów jest poważnie uszkodzonych!</afflictiondescription.rinternaldamage>
+  <afflictiondescription.robotinfection.low>To nie wróży niczego dobrego.</afflictiondescription.robotinfection.low>
+  <afflictiondescription.robotinfection>Twój moduł głosowy nie odpowiada, czujesz pnącza oplatające twoje stawy.</afflictiondescription.robotinfection>
+  <afflictiondescription.robotfast>Tryb turbo: Włączony!</afflictiondescription.robotfast>
+  <afflictiondescription.scoutdodge>Pozostała energia pozwalająca na szybki unik w bok.</afflictiondescription.scoutdodge>
+  <afflictiondescription.mediccharge>Pozostała energia do aktywacji zdolności specjalnej.</afflictiondescription.mediccharge>
+  <!-- /// Status Afflictions /// !-->
+  <afflictionname.transform>Konwersja Obrażeń</afflictionname.transform>
+  <afflictiondescription.transform>Przekształca standardowe typy obrażeń na dedykowane robotom.</afflictiondescription.transform>
+  <!-- Acid Burn -->
+  <afflictionname.racidburn>Skorodowany Metal</afflictionname.racidburn>
+  <causeofdeathdescription.racidburn>BŁĄD: Skorodowany</causeofdeathdescription.racidburn>
+  <self_causeofdeathdescription.racidburn>Proces zakończony, powłoka i komponenty wewnętrzne uległy stopieniu wskutek działania kwasów.</self_causeofdeathdescription.racidburn>
+  <afflictiondescription.racidburn.low>Powłoka uległa drobnej korozji kwasowej. Przy dokładnej inspekcji widać małe ślady rozpuszczonego metalu.</afflictiondescription.racidburn.low>
+  <afflictiondescription.racidburn>Powłoka poddawana średniemu stopniowi korozji. Integralność strukturalna ulega pogorszeniu, a komponenty wewnętrzne są narażone na działanie środowiska.</afflictiondescription.racidburn>
+  <afflictiondescription.racidburn.high>Powłoka poważnie skorodowana. Struktura uszkodzona, a wnętrze robota całkowicie odsłonięte.</afflictiondescription.racidburn.high>
+  <!-- Bite Wounds -->
+  <afflictionname.rbitewounds>Nadgryziona Powłoka</afflictionname.rbitewounds>
+  <causeofdeathdescription.rbitewounds>BŁĄD: Układ Wewnętrzny Skonsumowany</causeofdeathdescription.rbitewounds>
+  <self_causeofdeathdescription.rbitewounds>Proces zakończony, powłoka została przegryziona i uszkodzona w sposób nieodwracalny.</self_causeofdeathdescription.rbitewounds>
+  <afflictiondescription.rbitewounds.low>Drobne przebicia po ugryzieniach. Układ wewnętrzny pozostał w dużej mierze nienaruszony.</afflictiondescription.rbitewounds.low>
+  <afflictiondescription.rbitewounds>Powłoka zawiera liczne ślady ugryzień, niektóre komponenty wewnętrzne zostały uszkodzone mechanicznie.</afflictiondescription.rbitewounds>
+  <afflictiondescription.rbitewounds.high>Powłoka silnie nadgryziona, kluczowe obwody zostały uszkodzone.</afflictiondescription.rbitewounds.high>
+  <!-- Blunt Force Trauma -->
+  <afflictionname.rblunttrauma>Obita Powłoka</afflictionname.rblunttrauma>
+  <causeofdeathdescription.rblunttrauma>BŁĄD: Zgnieciona Powłoka</causeofdeathdescription.rblunttrauma>
+  <self_causeofdeathdescription.rblunttrauma>Proces zakończony, powłoka nie wytrzymała ekstremalnego nacisku.</self_causeofdeathdescription.rblunttrauma>
+  <afflictiondescription.rblunttrauma.low>Powłoka wykazuje niewielkie ślady fizycznego urazu: wgniecenia i rysy.</afflictiondescription.rblunttrauma.low>
+  <afflictiondescription.rblunttrauma>Powłoka częściowo uszkodzona od umiarkowanych sił fizycznych. Zalecana naprawa. Ruch ograniczony.</afflictiondescription.rblunttrauma>
+  <afflictiondescription.rblunttrauma.high>Poważne uszkodzenia strukturalne powłoki. Mechanika poruszania upośledzona.</afflictiondescription.rblunttrauma.high>
+  <!-- Burn -->
+  <afflictionname.rburn>Zdeformowany Metal</afflictionname.rburn>
+  <causeofdeathdescription.rburn>BŁĄD: Przegrzanie</causeofdeathdescription.rburn>
+  <self_causeofdeathdescription.rburn>Proces zakończony, komponenty uległy stopieniu od nadmiaru ciepła.</self_causeofdeathdescription.rburn>
+  <afflictiondescription.rburn.low>Powłoka lekko przypalona. Części zewnętrzne i wewnętrzne pozostają nienaruszone, choć widocznie przyciemnione.</afflictiondescription.rburn.low>
+  <afflictiondescription.rburn>Powłoka nadpalona przez wysoką temperaturę. Przeguby są rozgrzane do czerwoności, co wpływa negatywnie na mobilność. Komponenty wewnętrzne również ulegają przegrzaniu.</afflictiondescription.rburn>
+  <afflictiondescription.rburn.high>Powłoka zwęglona przez ekstremalną temperaturę. Przeguby odkształcone, wnętrze w stanie krytycznym.</afflictiondescription.rburn.high>
+  <!-- Explosion Damage -->
+  <afflictionname.rexplosiondamage>Uszkodzone Obwody</afflictionname.rexplosiondamage>
+  <causeofdeathdescription.rexplosiondamage>BŁĄD: Eksplozja</causeofdeathdescription.rexplosiondamage>
+  <self_causeofdeathdescription.rexplosiondamage>Proces zakończony, powłoka i wnętrze zostały rozerwane.</self_causeofdeathdescription.rexplosiondamage>
+  <afflictiondescription.rexplosiondamage.low>Drobne uszkodzenia od odłamków, lekkie wstrząsy układów wewnętrznych. Zalecana inspekcja.</afflictiondescription.rexplosiondamage.low>
+  <afflictiondescription.rexplosiondamage>Umiarkowane uszkodzenia od odłamków. Niektóre fragmenty utkwiły wewnątrz. Wymagana szybka naprawa.</afflictiondescription.rexplosiondamage>
+  <afflictiondescription.rexplosiondamage.high>Poważne uszkodzenia. Obwody wewnętrzne w stanie krytycznym. Naprawa natychmiastowa.</afflictiondescription.rexplosiondamage.high>
+  <!-- Gunshot Wounds -->
+  <afflictionname.rgunshotwound>Dziury po Pociskach</afflictionname.rgunshotwound>
+  <causeofdeathdescription.rgunshotwound>BŁĄD: Układ Wewnętrzny Postrzelony</causeofdeathdescription.rgunshotwound>
+  <self_causeofdeathdescription.rgunshotwound>Proces zakończony, powłoka została podziurawiona przez pociski.</self_causeofdeathdescription.rgunshotwound>
+  <afflictiondescription.rgunshotwound.low>Powłoka częściowo wytrzymała pociski, część z nich wciąż w niej tkwi.</afflictiondescription.rgunshotwound.low>
+  <afflictiondescription.rgunshotwound>Powłoka uszkodzona. Komponenty wewnętrzne częściowo odsłonięte i naruszone.</afflictiondescription.rgunshotwound>
+  <afflictiondescription.rgunshotwound.high>Poważne uszkodzenia po broni palnej. Liczne wyładowania elektryczne spowodowane naruszeniem obwodów.</afflictiondescription.rgunshotwound.high>
+  <!-- Internal Damage -->
+  <afflictionname.rinternaldamage1>Uszkodzenia Obwodów Krytycznych</afflictionname.rinternaldamage1>
+  <causeofdeathdescription.rinternaldamage1>BŁĄD: Krytyczne Uszkodzenie Wnętrza</causeofdeathdescription.rinternaldamage1>
+  <self_causeofdeathdescription.rinternaldamage1>Proces zakończony, wewnętrzne systemy uległy zniszczeniu.</self_causeofdeathdescription.rinternaldamage1>
+  <afflictiondescription.rinternaldamage1.low>Drobne uszkodzenia kluczowych układów. Możliwe błędy systemowe i glitche.</afflictiondescription.rinternaldamage1.low>
+  <afflictiondescription.rinternaldamage1>Znaczne uszkodzenia wewnętrzne. Działanie systemów coraz bardziej niestabilne.</afflictiondescription.rinternaldamage1>
+  <afflictiondescription.rinternaldamage1.high>Układy wewnętrzne w stanie krytycznym. Awaria całkowita nieunikniona.</afflictiondescription.rinternaldamage1.high>
+  <!-- Lacerations -->
+  <afflictionname.rlacerations>Rozdarta Powłoka</afflictionname.rlacerations>
+  <causeofdeathdescription.rlacerations>BŁĄD: Powłoka Rozerwana</causeofdeathdescription.rlacerations>
+  <self_causeofdeathdescription.rlacerations>Proces zakończony, powłoka została całkowicie rozerwana i nie nadaje się do naprawy.</self_causeofdeathdescription.rlacerations>
+  <afflictiondescription.rlacerations.low>Nieznaczne rozdarcia na powłoce, bez odsłonięcia wnętrza.</afflictiondescription.rlacerations.low>
+  <afflictiondescription.rlacerations>Powłoka uszkodzona, kilka rozerwań odsłania komponenty wewnętrzne.</afflictiondescription.rlacerations>
+  <afflictiondescription.rlacerations.high>Powłoka prawie całkowicie rozerwana. Natychmiastowa naprawa wymagana.</afflictiondescription.rlacerations.high>
+  <!-- /// Augments /// !-->
+  <afflictionname.rdamageresistance>Tytanowe Pancerze</afflictionname.rdamageresistance>
+  <afflictionname.rwaterproof>Wodoszczelne Obwody</afflictionname.rwaterproof>
+  <afflictionname.rempresistance>Izolacja Elektryczna</afflictionname.rempresistance>
+  <afflictionname.rmovespeed>Silne Silniki</afflictionname.rmovespeed>
+  <afflictionname.rswingspeed>Nasmarowane Stawy</afflictionname.rswingspeed>
+  <afflictionname.rswimspeed>Ulepszony Cykl Pływania</afflictionname.rswimspeed>
+  <afflictionname.rskillcaptain>Oprogramowanie Nawigacyjne</afflictionname.rskillcaptain>
+  <afflictionname.rskillmedic>Oprogramowanie Medyczne</afflictionname.rskillmedic>
+  <afflictionname.rskillsecurity>Oprogramowanie Bojowe</afflictionname.rskillsecurity>
+  <afflictionname.rskillmechanic>Oprogramowanie Mechaniczne</afflictionname.rskillmechanic>
+  <afflictionname.rskillengineer>Oprogramowanie Inżynieryjne</afflictionname.rskillengineer>
+  <afflictionname.rdronepod>Synteza Dronów</afflictionname.rdronepod>
+  <afflictionname.rmicrobots>Mikroboty</afflictionname.rmicrobots>
+  <afflictionname.rnanomachines>Nanomaszyny</afflictionname.rnanomachines>
+  <afflictionname.rbayonet>Bagnet</afflictionname.rbayonet>
+  <afflictionname.rhusk>Odporność na Głębokość</afflictionname.rhusk>
+  <afflictionname.rscythe>Kosa</afflictionname.rscythe>
+  <afflictionname.rdronecyst>Torbiele Drona</afflictionname.rdronecyst>
+  <afflictionname.immolatorbuff>Przegrzanie</afflictionname.immolatorbuff>
+  <afflictionname.immolatorheat>Temperatura</afflictionname.immolatorheat>
+  <afflictionname.dronedecay>Degradacja</afflictionname.dronedecay>
+  <afflictiondescription.rdamageresistance>Dodatkowe opancerzenie chroniące ramę.</afflictiondescription.rdamageresistance>
+  <afflictiondescription.rwaterproof>Ulepszone obwody i cykl wodny zapobiegające uszkodzeniom od wody.</afflictiondescription.rwaterproof>
+  <afflictiondescription.rempresistance>Izolacja gumowa tłumiąca nagłe impulsy elektromagnetyczne.</afflictiondescription.rempresistance>
+  <afflictiondescription.rmovespeed>Silniki zoptymalizowane pod kątem szybszego poruszania się.</afflictiondescription.rmovespeed>
+  <afflictiondescription.rswingspeed>Nasmarowane stawy poprawiające bezwładność machania.</afflictiondescription.rswingspeed>
+  <afflictiondescription.rswimspeed>Zoptymalizowane dane animacji zwiększające prędkość pływania.</afflictiondescription.rswimspeed>
+  <afflictiondescription.rskillcaptain>Oprogramowanie do nawigacji okrętami podwodnymi i szybszego ładowania wieżyczek.</afflictiondescription.rskillcaptain>
+  <afflictiondescription.rskillmedic>Dane z kilku podręczników medycznych poprawiające efektywność używania środków medycznych.</afflictiondescription.rskillmedic>
+  <afflictiondescription.rskillsecurity>Systemy celowania i szybsze strzelanie z wieżyczek.</afflictiondescription.rskillsecurity>
+  <afflictiondescription.rskillmechanic>Półka z podręcznikami technicznymi.</afflictiondescription.rskillmechanic>
+  <afflictiondescription.rskillengineer>Półka z podręcznikami inżynieryjnymi i elektrycznymi.</afflictiondescription.rskillengineer>
+  <afflictiondescription.rdronepod>Informacje o syntezie dronów bojowych w głównej ramie użytkownika.</afflictiondescription.rdronepod>
+  <afflictiondescription.rmicrobots>Naprawy w odpowiedzi na urazy fizyczne.</afflictiondescription.rmicrobots>
+  <afflictiondescription.rnanomachines>Ulegają utwardzeniu w odpowiedzi na urazy fizyczne.</afflictiondescription.rnanomachines>
+  <afflictiondescription.rbayonet>Dane konstrukcyjne ostrza montowanego na ramieniu.</afflictiondescription.rbayonet>
+  <afflictiondescription.rhusk>Czujesz, że możesz stawić czoła każdej głębokości, ale nie możesz użyć swojego modułu głosowego — pochłoniętego przez Zgniliznę.</afflictiondescription.rhusk>
+  <afflictiondescription.rscythe>DIREKTYWA: RANIJ.</afflictiondescription.rscythe>
+  <afflictiondescription.rdronecyst>Czujesz, jak torbiele przebijają się przez twoje plecy.</afflictiondescription.rdronecyst>
+  <afflictiondescription.immolatorbuff>System został przeciążony, prowadząc do przegrzania komponentów. Wydajność jest obniżona do czasu ochłodzenia lub naprawy.</afflictiondescription.immolatorbuff>
+  <afflictiondescription.immolatorheat>Wewnętrzna temperatura jednostki wzrosła do niebezpiecznego poziomu. Może dojść do przegrzania lub uszkodzenia komponentów.</afflictiondescription.immolatorheat>
+  <afflictiondescription.dronedecay>Komponenty jednostki ulegają stopniowemu zużyciu, co prowadzi do obniżenia sprawności operacyjnej.</afflictiondescription.dronedecay>
+  <!-- /// Exoskeletons Skins /// !-->
+  <entityname.legacyskin_m>Gen. 1 Ramka Kosmetyczna - Model: M</entityname.legacyskin_m>
+  <entityname.legacyskin_f>Gen. 1 Ramka Kosmetyczna - Model: F</entityname.legacyskin_f>
+  <entityname.fractalskin>(Fraktalna) Ramka Kosmetyczna</entityname.fractalskin>
+  <entityname.rotskin>Skażona Ramka Kosmetyczna</entityname.rotskin>
+  <entityname.kateeskin>Gen. 2 Ramka Relacji</entityname.kateeskin>
+  <entityname.kateeskinheadless>Gen. 2 Ramka Relacji (Bez Głowy)</entityname.kateeskinheadless>
+  <entityname.duncecap>Czapka Głupca</entityname.duncecap>
+  <!-- /// Exoskeletons /// !-->
+  <entityname.frame1>Egzo-Ramka MK. I</entityname.frame1>
+  <entityname.frame2>Egzo-Ramka MK. II</entityname.frame2>
+  <entityname.Cframe1>Egzo-Ramka MK. III</entityname.Cframe1>
+  <entityname.frame2safe>Bezpieczna Egzo-Ramka</entityname.frame2safe>
+  <entityname.medicframe>Egzo-Ramka Medyczna (Lazarus)</entityname.medicframe>
+  <entityname.mechframe>Naprawcza Egzo-Ramka (Thrash)</entityname.mechframe>
+  <entityname.engineerframe>Naprawcza Egzo-Ramka (Arc)</entityname.engineerframe>
+  <entityname.cargoframe>Egzo-Ramka Załadunkowa (Hauler)</entityname.cargoframe>
+  <entityname.scoutframe>Bojowa Egzo-Ramka (Scout)</entityname.scoutframe>
+  <entityname.Cframe2>Bojowa Egzo-Ramka (Sledge)</entityname.Cframe2>
+  <entityname.Cframe3>Bojowa Egzo-Ramka (Sail)</entityname.Cframe3>
+  <entityname.v1frame>Prototypowa Bojowa Egzo-Ramka</entityname.v1frame>
+  <entityname.captainframe>Dowódcza Egzo-Ramka (Sovereign)</entityname.captainframe>
+  <entityname.immolatorframe>Egzo-Ramka Pirotechniczna (Immolator)</entityname.immolatorframe>
+  <entityname.MFrame>Egzo-Ramka (Górnicza)</entityname.MFrame>
+  <entitydescription.frame1>Słaba i lekka ramka wytrzymująca ciśnienie do 3000 metrów. Tania opcja idealna dla początkującej załogi, ale ulepszenia będą konieczne na głębszych misjach.</entitydescription.frame1>
+  <entitydescription.frame2>Solidna ramka wytrzymująca ciśnienie do 4000 metrów. Bezpośrednie ulepszenie wersji MK. I, lepiej radzi sobie z zagrożeniami.</entitydescription.frame2>
+  <entitydescription.frame2safe>Egzo-ramka łącząca możliwości MK. II oraz uprzęży bezpieczeństwa. Wytrzymuje głębokość do 4000 metrów.</entitydescription.frame2safe>
+  <entitydescription.medicframe>Wytrzymała egzo-ramka do 7000 metrów. Posiada kieszenie na leki i emituje gazy lecznicze dla pobliskich ludzi.</entitydescription.medicframe>
+  <entitydescription.Cframe1>Solidna ramka. Dobra ochrona i odporność na ciśnienie do 6000 metrów.</entitydescription.Cframe1>
+  <entitydescription.scoutframe>Lekka ramka bojowa do głębin. Oferuje tarczę z możliwością ładowania i ochronę do 6000 metrów.</entitydescription.scoutframe>
+  <entitydescription.Cframe2>Ciężka ramka bojowa na ogniwa paliwowe. Silnie opancerzona, odporna do 10000 metrów. Tłumi odrzut ciężkiej broni.</entitydescription.Cframe2>
+  <entitydescription.v1frame>Prototyp z samonaprawiającym się pancerzem reagującym na krew. EUROPA MILCZY. KREW TO PALIWO. EUROPA JEST PEŁNA.</entitydescription.v1frame>
+  <entitydescription.mechframe>Ramka z monitorem kadłuba i wbudowaną gwoździarką do napraw i obrony. Idealna do utrzymania szczelności okrętu. Wytrzymuje 8000 metrów.</entitydescription.mechframe>
+  <entitydescription.engineerframe>Z monitorem elektrycznym i systemem przeładowania. Przyspiesza siebie i pobliskie roboty, może wyładować się statycznym impulsem. Wytrzymuje do 7000 metrów.</entitydescription.engineerframe>
+  <entitydescription.Cframe3>Zwinna ramka z harpunem do poruszania się pod wodą. Wytrzymuje do 7000 metrów. Poświęca mobilność naziemną na rzecz prędkości w wodzie.</entitydescription.Cframe3>
+  <entitydescription.cargoframe>Duża ramka do transportu skrzyń. Wytrzymuje 8000 metrów. Ma slot na latarkę do świecenia.</entitydescription.cargoframe>
+  <entitydescription.captainframe>Stylowa ramka do 10000 metrów. Steruj okrętem zdalnie dzięki połączeniu z pokojem dowodzenia. Zawiera wizję termiczną.</entitydescription.captainframe>
+  <entitydescription.immolatorframe>Improwizowana ramka zaprojektowana przez separatystów. Wytrzymuje 8000 metrów. Miotacz generuje ciepło, które można oczyścić, by zyskać wzmocnienie.</entitydescription.immolatorframe>
+  <entitydescription.MFrame>Wytrzymała rama zewnętrzna zaprojektowana do wydobycia materiałów, wyposażona w wiertło zasilane baterią. Zapewnia ochronę ciśnieniową do 6000 metrów</entitydescription.MFrame>
+  <!-- /// Other /// !-->
+  <entityname.disposablebattery>Bateria Jednorazowa</entityname.disposablebattery>
+  <entityname.rex>Dziwny Plakat</entityname.rex>
+  <entityname.vacubotspawner>Vacubot</entityname.vacubotspawner>
+  <entityname.modifiedvacubotspawner>Zmodyfikowany Vacubot</entityname.modifiedvacubotspawner>
+  <entityname.headlamp>Czołówka</entityname.headlamp>
+  <entityname.wallcharger>Stacja Ładowania Robotów</entityname.wallcharger>
+  <entityname.hevcharger>Ładowarka H.E.V.</entityname.hevcharger>
+  <entityname.nanodyeclear>Usuwacz Nanobarwnika</entityname.nanodyeclear>
+  <entityname.nanodyeblue>Niebieski Nanobarwnik</entityname.nanodyeblue>
+  <entityname.nanodyered>Czerwony Nanobarwnik</entityname.nanodyered>
+  <entityname.nanodyegreen>Zielony Nanobarwnik</entityname.nanodyegreen>
+  <entityname.nanodyeyellow>Żółty Nanobarwnik</entityname.nanodyeyellow>
+  <entityname.nanodyeorange>Pomarańczowy Nanobarwnik</entityname.nanodyeorange>
+  <entityname.nanodyepurple>Fioletowy Nanobarwnik</entityname.nanodyepurple>
+  <entityname.nanodyepink>Różowy Nanobarwnik</entityname.nanodyepink>
+  <entityname.nanodyeblack>Czarny Nanobarwnik</entityname.nanodyeblack>
+  <entityname.nanodyewhite>Biały Nanobarwnik</entityname.nanodyewhite>
+  <entityname.nail>gwóźdź</entityname.nail>
+  <entityname.rivetgun>Gwoździarka</entityname.rivetgun>
+  <entityname.navtablet>Tablet Nawigacyjny</entityname.navtablet>
+  <entityname.immolatorflamer>Miotacz (Scorcher)</entityname.immolatorflamer>
+  <entityname.sailharpoongun>Harpun (Meathook)</entityname.sailharpoongun>
+  <entityname.sailharpoon>harpun żaglowy</entityname.sailharpoon>
+  <talentdescription.rtcraftwithlessitems>Możesz tworzyć ‖color:gui.orange‖Układy FPGA‖end‖ oraz ‖color:gui.orange‖Pudełka Obwodów‖end‖ zużywając znacznie mniej materiałów. Odblokowuje przepis: ‖color:gui.orange‖Stacja Ładowania Robotów‖end‖</talentdescription.rtcraftwithlessitems>
+  <entitydescription.rivetgun>Wyciągnij z ręki, aby usunąć</entitydescription.rivetgun>
+  <entitydescription.navtablet>Wyciągnij z ręki, aby usunąć</entitydescription.navtablet>
+  <entitydescription.sailharpoongun>Wyciągnij z ręki, aby usunąć</entitydescription.sailharpoongun>
+  <entitydescription.immolatorflamer>Wyciągnij z ręki, aby usunąć</entitydescription.immolatorflamer>
+  <entitydescription.disposablebattery>Bardzo nieekonomiczne rozwiązanie kryzysu energetycznego robotów.</entitydescription.disposablebattery>
+  <arcframedischarge>Wyładowanie Elektryczne</arcframedischarge>
+  <medframedischarge>Impuls Leczący</medframedischarge>
+  <framecargolight>Włącz/wyłącz światło</framecargolight>
+  <framesovereignbutton>Steruj Okrętem</framesovereignbutton>
+  <framemechbutton>Aktywuj Broń</framemechbutton>
+  <researchstation.research.robotinfo>Wykryto zaszyfrowany dysk. Zawartość nieznana. Czy na pewno chcesz kontynuować?</researchstation.research.robotinfo>
+  <researchstation.combine.robotmissingitem>Wykryto zaszyfrowany dysk. Wymagana wypalana płytka FPGA.</researchstation.combine.robotmissingitem>
+  <!-- /// Robot Module /// !-->
+  <afflictionname.SwimingSpeedModuleBuff>Moduł Prędkości Pływania</afflictionname.SwimingSpeedModuleBuff>
+  <afflictionname.WalkSpeedModuleBuff>Moduł Prędkości Chodzenia</afflictionname.WalkSpeedModuleBuff>
+  <afflictionname.AIlearning>Nauka Sztucznej Inteligencji</afflictionname.AIlearning>
+  <afflictionname.RobotWeightingDeviceBuff>Urządzenie Dociążające Robota</afflictionname.RobotWeightingDeviceBuff>
+  <afflictionname.NanorobotsBuff>Nanoroboty</afflictionname.NanorobotsBuff>
+  <afflictiondescription.SwimingSpeedModuleBuff>Zainstalowano moduł przyspieszający ruch w wodzie</afflictiondescription.SwimingSpeedModuleBuff>
+  <afflictiondescription.WalkSpeedModuleBuff>Zainstalowano moduł przyspieszający ruch na lądzie</afflictiondescription.WalkSpeedModuleBuff>
+  <afflictiondescription.AIlearning>Byłeś długo odłączony, przez co twoja baza danych jest nieaktualna. Otrzymujesz -15 do wszystkich umiejętności, ale jako maszyna uczysz się o 30% szybciej</afflictiondescription.AIlearning>
+  <afflictiondescription.RobotWeightingDeviceBuff>Zainstalowano urządzenie zwiększające masę robota — odporność na prądy wodne +30%, obrażenia +25%, ale prędkość -10%</afflictiondescription.RobotWeightingDeviceBuff>
+  <afflictiondescription.NanorobotsBuff>Nanoroboty regenerujące ciało, jednak podczas podania wprowadzają użytkownika w sen na czas leczenia.</afflictiondescription.NanorobotsBuff>
+  <entityname.SwimingSpeedModule>Moduł Prędkości Pływania</entityname.SwimingSpeedModule>
+  <entityname.WalkSpeedModule>Moduł Prędkości Chodzenia</entityname.WalkSpeedModule>
+  <entityname.RobotWeightingDevice>Urządzenie Dociążające Robota</entityname.RobotWeightingDevice>
+  <entitydescription.SwimingSpeedModule>Moduł zwiększający prędkość pływania</entitydescription.SwimingSpeedModule>
+  <entitydescription.WalkSpeedModule>Moduł zwiększający prędkość poruszania się na lądzie</entitydescription.WalkSpeedModule>
+  <entitydescription.RobotWeightingDevice>Urządzenie zwiększające masę robota, co zwiększa odporność na prądy wodne o 30% i obrażenia o 25%, ale spowalnia o 10%</entitydescription.RobotWeightingDevice>
+  <!-- /// Genetics /// !-->
+  <afflictionname.rmolochdata>Dane Genetyczne (Moloch)</afflictionname.rmolochdata>
+  <afflictionname.rmolluscdata>Dane Genetyczne (Mięczak)</afflictionname.rmolluscdata>
+  <afflictionname.rskitterdata>Dane Genetyczne (Skitter)</afflictionname.rskitterdata>
+  <afflictionname.rhunterdata>Dane Genetyczne (Łowca)</afflictionname.rhunterdata>
+  <afflictionname.rthermaldata>Dane Termiczne (Latcher)</afflictionname.rthermaldata>
+  <afflictionname.rfractaldata>Fraktalny Firmware</afflictionname.rfractaldata>
+  <afflictionname.rsailormemory>Pamięć Marynarza</afflictionname.rsailormemory>
+  <afflictiondescription.rmolochdata>Zsyntetyzowane dane genetyczne Molocha. Wzory pancerza jednostki naśladują fizjologię Molocha, zwiększając obronę.</afflictiondescription.rmolochdata>
+  <afflictiondescription.rmolluscdata>Zsyntetyzowane dane genetyczne Mięczaka. Jednostka odczuwa mniej bólu, a kadłub lepiej znosi obrażenia.</afflictiondescription.rmolluscdata>
+  <afflictiondescription.rskitterdata>Zsyntetyzowane dane genetyczne Skittera. Po otrzymaniu obrażeń systemy mobilności jednostki chwilowo się przetaktowują.</afflictiondescription.rskitterdata>
+  <afflictiondescription.rhunterdata>Zsyntetyzowane dane genetyczne Łowcy. Choć łowcy rzadko już występują w Europie, dysk zmienia reakcję walki/ucieczki, chwilowo zwiększając możliwości ofensywne po otrzymaniu obrażeń.</afflictiondescription.rhunterdata>
+  <afflictiondescription.rthermaldata>Genetyczne fragmenty umożliwiają szybsze reakcje i odporność cieplną. Doskonałe do walki w warunkach wysokiej temperatury.</afflictiondescription.rthermaldata>
+  <afflictiondescription.rfractaldata>Obcy kod odszyfrowany zaawansowanym algorytmem. Wykorzystuje właściwości animacji i kodu fraktalnego strażnika do wzmocnienia jednostki.</afflictiondescription.rfractaldata>
+  <afflictiondescription.rsailormemory>Zbiór porad i trików zebranych z doświadczeń starego marynarza. Plik README mówi: „Uważaj na siebie, dzieciaku”. Zastanawiasz się, czy w ogóle powinieneś to mieć.</afflictiondescription.rsailormemory>
+  <entityname.chipmoloch>Napęd z Danymi Genetycznymi (Moloch) - Poziom 1</entityname.chipmoloch>
+  <entityname.chipmollusc>Napęd z Danymi Genetycznymi (Mięczak) - Poziom 1</entityname.chipmollusc>
+  <entityname.chipskitter>Napęd z Danymi Genetycznymi (Skitter) - Poziom 1</entityname.chipskitter>
+  <entityname.chiphunter>Napęd z Danymi Genetycznymi (Łowca) - Poziom 1</entityname.chiphunter>
+  <entityname.chipthermal>Napęd Termiczny (Latcher) - Poziom 1</entityname.chipthermal>
+  <entityname.chipfractal>Napęd z Firmware Obcych (Fraktalny Strażnik) - Poziom 1</entityname.chipfractal>
+  <entityname.chipsailormemory>Zewnętrzny Napęd Pamięci Marynarza</entityname.chipsailormemory>
+  <!-- /// Weapons /// !-->
+  <entityname.NanorobotsWeapon>ANIS</entityname.NanorobotsWeapon>
+  <entityname.NanorobotsBullet>Kapsuła z Nanorobotami</entityname.NanorobotsBullet>
+  <entityname.piercerWeapon>Piercer</entityname.piercerWeapon>
+  <entitydescription.NanorobotsWeapon>Automatyczny Wstrzykiwacz Nanorobotów (ANIS) zaprojektowany do szybkiego leczenia/naprawy organizmów żywych i syntetycznych. Z powodu specyfiki technologicznej tylko roboty mogą go używać, a większość energii pobierana jest z użytkownika. OSTRZEŻENIE!!! Przy użyciu przez organizmy organiczne powoduje spalenie od środka, co może prowadzić do śmierci.</entitydescription.NanorobotsWeapon>
+  <entitydescription.NanorobotsBullet>Kapsuła zawierająca nanoroboty, które regenerują organizmy organiczne i syntetyczne, a następnie autodestrukcja z braku energii bez szkody dla organizmu. Do podania potrzebne jest specjalne urządzenie: ANIS — przeznaczone wyłącznie dla robotów.</entitydescription.NanorobotsBullet>
+  <entitydescription.piercerWeapon>Broń energetyczna, która nie wymaga amunicji, lecz zużywa energię użytkownika — może być używana tylko przez roboty.
+OSTRZEŻENIE!!!
+Organiczne istoty zostaną spalone od środka przy próbie użycia tej broni</entitydescription.piercerWeapon>
+  <!-- /// Colors /// !-->
+  <afflictionname.robotblue>Nano-Niebieski</afflictionname.robotblue>
+  <afflictionname.robotred>Nano-Czerwony</afflictionname.robotred>
+  <afflictionname.robotgreen>Nano-Zielony</afflictionname.robotgreen>
+  <afflictionname.robotyellow>Nano-Żółty</afflictionname.robotyellow>
+  <afflictionname.robotpurple>Nano-Fioletowy</afflictionname.robotpurple>
+  <afflictionname.robotorange>Nano-Pomarańczowy</afflictionname.robotorange>
+  <afflictionname.robotpink>Nano-Różowy</afflictionname.robotpink>
+  <afflictionname.robotblack>Nano-Czarny</afflictionname.robotblack>
+  <afflictionname.robotwhite>Nano-Biały</afflictionname.robotwhite>
+  <!-- /// Improvements /// !-->
+  <entityname.chipdrive1>Port Syntezy Genetycznej (MK. I)</entityname.chipdrive1>
+  <entityname.chipdrive2>Port Syntezy Genetycznej (MK. II)</entityname.chipdrive2>
+  <entityname.chipdrive3>Port Syntezy Genetycznej (MK. III)</entityname.chipdrive3>
+  <entityname.chipdrive4>Port Syntezy Genetycznej (MK. IV)</entityname.chipdrive4>
+  <entityname.chipdrive5>Port Syntezy Genetycznej (MK. V)</entityname.chipdrive5>
+  <entityname.chipdrive6>Port Syntezy Genetycznej (MK. VI)</entityname.chipdrive6>
+  <entityname.chipdresist>Standardowy Moduł Firmware (Tytanowa Powłoka)</entityname.chipdresist>
+  <entityname.chipwaterproof>Standardowy Moduł Firmware (Wodoodporne Obwody)</entityname.chipwaterproof>
+  <entityname.chipempresist>Standardowy Moduł Firmware (Izolacja Elektryczna)</entityname.chipempresist>
+  <entityname.chipmovespeed>Standardowy Moduł Firmware (Mocne Silniki)</entityname.chipmovespeed>
+  <entityname.chipswingspeed>Standardowy Moduł Firmware (Nasmarowane Złącza)</entityname.chipswingspeed>
+  <entityname.chipswimspeed>Standardowy Moduł Firmware (Ulepszony Cykl Pływania)</entityname.chipswimspeed>
+  <entityname.chipdronepod>Specjalistyczny Moduł (Synteza Drona)</entityname.chipdronepod>
+  <entityname.chipbayonet>Specjalistyczny Moduł (Bagnet)</entityname.chipbayonet>
+  <entityname.chipmicrobots>Specjalistyczny Moduł (Mikroboty)</entityname.chipmicrobots>
+  <entityname.chipscythe>Uszkodzony Moduł Neuronalny (Bagnet?)</entityname.chipscythe>
+  <entityname.chipdronecyst>Uszkodzony Moduł Neuronalny (Synteza Drona?)</entityname.chipdronecyst>
+  <entityname.chiphusk>Uszkodzony Moduł Neuronalny (Wodoodporne Obwody?)</entityname.chiphusk>
+  <entityname.chipnanomachines>Uszkodzony Moduł Neuronalny (Mikroboty?)</entityname.chipnanomachines>
+  <entityname.encrypteddisk>Zaszyfrowany Moduł</entityname.encrypteddisk>
+  <entityname.chipcaptain>Rdzeń Programowy (Nawigacja)</entityname.chipcaptain>
+  <entityname.chipmedic>Rdzeń Programowy (Medyczny)</entityname.chipmedic>
+  <entityname.chipsecurity>Rdzeń Programowy (Walka)</entityname.chipsecurity>
+  <entityname.chipmechanic>Rdzeń Programowy (Mechanika)</entityname.chipmechanic>
+  <entityname.chipengineer>Rdzeń Programowy (Inżynieria)</entityname.chipengineer>
+  <entitydescription.chipdrive1>Port umożliwiający robotom instalację genetyków oraz niestandardowego oprogramowania. Montowany bezpośrednio do czaszki procesora.</entitydescription.chipdrive1>
+  <entitydescription.chipdrive2>Port umożliwiający robotom instalację genetyków oraz niestandardowego oprogramowania. Montowany bezpośrednio do czaszki procesora.</entitydescription.chipdrive2>
+  <entitydescription.chipdrive3>Port umożliwiający robotom instalację genetyków oraz niestandardowego oprogramowania. Montowany bezpośrednio do czaszki procesora.</entitydescription.chipdrive3>
+  <entitydescription.chipdrive4>Port umożliwiający robotom instalację genetyków oraz niestandardowego oprogramowania. Montowany bezpośrednio do czaszki procesora.</entitydescription.chipdrive4>
+  <entitydescription.chipdrive5>Port umożliwiający robotom instalację genetyków oraz niestandardowego oprogramowania. Montowany bezpośrednio do czaszki procesora.</entitydescription.chipdrive5>
+  <entitydescription.chipdrive6>Port umożliwiający robotom instalację genetyków oraz niestandardowego oprogramowania. Montowany bezpośrednio do czaszki procesora.</entitydescription.chipdrive6>
+  <entitydescription.chipdresist>Podstawowy pakiet firmware'u. Umożliwia normalną pracę portu syntezy oraz podstawowe protokoły operacyjne.</entitydescription.chipdresist>
+  <entitydescription.chipwaterproof>Podstawowy pakiet firmware'u. Umożliwia normalną pracę portu syntezy oraz podstawowe protokoły operacyjne.</entitydescription.chipwaterproof>
+  <entitydescription.chipempresist>Podstawowy pakiet firmware'u. Umożliwia normalną pracę portu syntezy oraz podstawowe protokoły operacyjne.</entitydescription.chipempresist>
+  <entitydescription.chipmovespeed>Podstawowy pakiet firmware'u. Umożliwia normalną pracę portu syntezy oraz podstawowe protokoły operacyjne.</entitydescription.chipmovespeed>
+  <entitydescription.chipswingspeed>Podstawowy pakiet firmware'u. Umożliwia normalną pracę portu syntezy oraz podstawowe protokoły operacyjne.</entitydescription.chipswingspeed>
+  <entitydescription.chipswimspeed>Podstawowy pakiet firmware'u. Umożliwia normalną pracę portu syntezy oraz podstawowe protokoły operacyjne.</entitydescription.chipswimspeed>
+  <entitydescription.chipdronepod>Chip zaprojektowany z myślą o konkretnych zadaniach jednostek robotycznych. Zawiera wewnętrzne rutyny zoptymalizowane pod kątem specjalistycznych operacji.</entitydescription.chipdronepod>
+  <entitydescription.chipbayonet>Chip zaprojektowany z myślą o konkretnych zadaniach jednostek robotycznych. Zawiera wewnętrzne rutyny zoptymalizowane pod kątem specjalistycznych operacji.</entitydescription.chipbayonet>
+  <entitydescription.chipmicrobots>Chip zaprojektowany z myślą o konkretnych zadaniach jednostek robotycznych. Zawiera wewnętrzne rutyny zoptymalizowane pod kątem specjalistycznych operacji.</entitydescription.chipmicrobots>
+  <entitydescription.chipscythe>Zainfekowany chip zawierający uszkodzone lub złośliwe dane. Może wywoływać nieprzewidywalne zmiany w zachowaniu jednostki.</entitydescription.chipscythe>
+  <entitydescription.chipdronecyst>Zainfekowany chip zawierający uszkodzone lub złośliwe dane. Może wywoływać nieprzewidywalne zmiany w zachowaniu jednostki.</entitydescription.chipdronecyst>
+  <entitydescription.chiphusk>Zainfekowany chip zawierający uszkodzone lub złośliwe dane. Może wywoływać nieprzewidywalne zmiany w zachowaniu jednostki.</entitydescription.chiphusk>
+  <entitydescription.chipnanomachines>Zainfekowany chip zawierający uszkodzone lub złośliwe dane. Może wywoływać nieprzewidywalne zmiany w zachowaniu jednostki.</entitydescription.chipnanomachines>
+  <entitydescription.encrypteddisk>Pakiet danych zakodowany nieznanym algorytmem. Aby uzyskać dostęp do jego zawartości, wymagane jest specjalne rozszyfrowanie.</entitydescription.encrypteddisk>
+  <entitydescription.chipcaptain>Główny moduł zarządzający systemem operacyjnym jednostki. Zawiera podstawowe algorytmy odpowiedzialne za działanie portu oraz obsługę zainstalowanych modułów.</entitydescription.chipcaptain>
+  <entitydescription.chipmedic>Główny moduł zarządzający systemem operacyjnym jednostki. Zawiera podstawowe algorytmy odpowiedzialne za działanie portu oraz obsługę zainstalowanych modułów.</entitydescription.chipmedic>
+  <entitydescription.chipsecurity>Główny moduł zarządzający systemem operacyjnym jednostki. Zawiera podstawowe algorytmy odpowiedzialne za działanie portu oraz obsługę zainstalowanych modułów.</entitydescription.chipsecurity>
+  <entitydescription.chipmechanic>Główny moduł zarządzający systemem operacyjnym jednostki. Zawiera podstawowe algorytmy odpowiedzialne za działanie portu oraz obsługę zainstalowanych modułów.</entitydescription.chipmechanic>
+  <entitydescription.chipengineer>Główny moduł zarządzający systemem operacyjnym jednostki. Zawiera podstawowe algorytmy odpowiedzialne za działanie portu oraz obsługę zainstalowanych modułów.</entitydescription.chipengineer>
+  <!-- /// Robot Store /// !-->
+  <charactername.merchantrobot>KATE-E</charactername.merchantrobot>
+  <eventtext.shop.katee.interact>Witamy w oddziale Fundacji Robotyki Europan! W czym może pomóc to urządzenie?</eventtext.shop.katee.interact>
+  <eventtext.shop.katee.achievement>Gratulacje, kliencie! Udowodniłeś swoją lojalność kupując każdy przedmiot z tej oferty! Odbierz darmowy schemat ramki kosmetycznej!</eventtext.shop.katee.achievement>
+  <eventtext.shop.katee.option.buy.success>Zakup udany. Miłego użytkowania!</eventtext.shop.katee.option.buy.success>
+  <eventtext.shop.katee.buy.failure>Błąd zakupu! Niewystarczające środki.</eventtext.shop.katee.buy.failure>
+  <eventtext.shop.katee.option.leave>Opuść</eventtext.shop.katee.option.leave>
+  <eventtext.shop.katee.option.shop>Przeglądaj ofertę</eventtext.shop.katee.option.shop>
+  <eventtext.shop.katee.option.battery>Bateria (110mk)</eventtext.shop.katee.option.battery>
+  <eventtext.shop.katee.option.robotm>Gen. 1 Ramka Kosmetyczna - Model: M (300mk)</eventtext.shop.katee.option.robotm>
+  <eventtext.shop.katee.option.robotf>Gen. 1 Ramka Kosmetyczna - Model: F (300mk)</eventtext.shop.katee.option.robotf>
+  <eventtext.shop.katee.option.charger>Stacja Ładowania Robotów (700mk)</eventtext.shop.katee.option.charger>
+  <!-- /// Achievements /// !-->
+  <talentname.returner>Powracający</talentname.returner>
+  <talentname.dunce>Głupiec</talentname.dunce>
+  <talentname.corrupted>Skażony</talentname.corrupted>
+  <talentname.valuedcustomer>Cenny Klient</talentname.valuedcustomer>
+  <talentname.highlytrainedprofessional>Wysoko Wykwalifikowany Specjalista</talentname.highlytrainedprofessional>
+  <talentdescription.returner>Dopełnij cykl. Odblokowuje: [itemname]</talentdescription.returner>
+  <talentdescription.dunce>Miałeś jedno zadanie. Spróbuj zapoznać się z mechaniką moda, tłuku. Odblokowuje: [itemname]</talentdescription.dunce>
+  <talentdescription.corrupted>Zaakceptuj Zgniliznę. Odblokowuje: [itemname]</talentdescription.corrupted>
+  <talentdescription.valuedcustomer>KATE-E dziękuje za twoje wsparcie! Odblokowuje: [itemname]</talentdescription.valuedcustomer>
+  <talentdescription.highlytrainedprofessional>Trzymaj łom i wyglądaj jak pomarańczowy lodowy lizak. Odblokowuje: [itemname]</talentdescription.highlytrainedprofessional>
+</infotexts>

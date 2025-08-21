@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Robotrauma Remake" steamworkshopid="3489190188" corepackage="false" modversion="1.0.6" gameversion="1.9.7.0" installtime="1751291849" expectedhash="E49F3506D427F06150EBE0BFC0E2FE1F">
+  <Character file="%ModDir%/Characters/DefenseDrone/DefenseDrone.xml" />
+  <Character file="%ModDir%/Characters/DefenseDroneCorrupted/DefenseDroneCorrupted.xml" />
+  <Character file="%ModDir%/Characters/Human/Human.xml" />
+  <Character file="%ModDir%/Characters/Humanhusk/Humanhusk.xml" />
+  <Character file="%ModDir%/Characters/Jove/Jove.xml" />
+  <Character file="%ModDir%/Characters/RoobmaFunny/ModifiedVacubot.xml" />
+  <Character file="%ModDir%/Characters/Roomba/Vacubot.xml" />
+  <Character file="%ModDir%/Characters/Rotcyst/Rotcyst.xml" />
+  <Item file="%ModDir%/Items/Jobgear/misc.xml" />
+  <Item file="%ModDir%/Items/Chipsets/chipsets.xml" />
+  <Item file="%ModDir%/Items/Chipsets/GeneticChipsets.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Captain/captain_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Medic/medic_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Mechanic/mechanic_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Engineer/engineer_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Assistant/assistant_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Clown/clown.xml" />
+  <Item file="%ModDir%/Items/items.xml" />
+  <Item file="%ModDir%/Items/Frames/frames.xml" />
+  <Item file="%ModDir%/Items/Medical/medical.xml" />
+  <Item file="%ModDir%/Items/Modules/modules.xml" />
+  <Item file="%ModDir%/Items/Weapons/weapons.xml" />
+  <Item file="%ModDir%/Items/Cosmetics/cosmetics.xml" />
+  <Text file="%ModDir%/Texts/English.xml" />
+  <Text file="%ModDir%/Texts/French.xml" />
+  <Text file="%ModDir%/Texts/Polish.xml" />
+  <Afflictions file="%ModDir%/Afflictions/Afflictions.xml" />
+  <Afflictions file="%ModDir%/Afflictions/GeneticAfflictions.xml" />
+  <Afflictions file="%ModDir%/Afflictions/StatusAfflictions.xml" />
+  <Particles file="%ModDir%/Particles/particles.xml" />
+  <NPCSets file="%ModDir%/NPC/OutpostBots.xml" />
+  <RandomEvents file="%ModDir%/NPC/KATEEspawn.xml" />
+  <Talents file="%ModDir%/Achievements.xml" />
+  <Character file="%ModDir%/Characters/Robot/Robot.xml" />
+</contentpackage>

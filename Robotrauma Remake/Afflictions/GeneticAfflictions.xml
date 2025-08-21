@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <!--
+  
+	robot gene afflictions
+
+  !-->
+  <Affliction name="" identifier="rmolochdata" type="augment" limbspecific="false" indicatorlimb="Torso" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231" description="">
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="0.1" maxresistance="0.25" />
+    <icon texture="%ModDir%/UI/augmentUI.png" color="181,230,29,255" origin="0,0" sourcerect="998,0,80,97" />
+  </Affliction>
+  <Affliction name="" identifier="rmolluscdata" type="augment" limbspecific="false" indicatorlimb="Torso" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231" description="">
+    <Effect minstrength="0" maxstrength="20">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="strengthen" amount="10" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="20" maxstrength="40">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="strengthen" amount="20" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="40" maxstrength="60">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="strengthen" amount="30" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="60" maxstrength="80">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="strengthen" amount="45" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="80" maxstrength="100">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="strengthen" amount="60" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/UI/augmentUI.png" color="163,73,764,255" origin="0,0" sourcerect="998,0,80,97" />
+  </Affliction>
+  <Affliction name="" identifier="rskitterdata" type="augment" limbspecific="false" indicatorlimb="Torso" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231" description="">
+    <Effect minstrength="0" maxstrength="20">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="haste" amount="10" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="20" maxstrength="40">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="haste" amount="20" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="40" maxstrength="60">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="haste" amount="30" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="60" maxstrength="80">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="haste" amount="45" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="80" maxstrength="100">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="haste" amount="60" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/UI/augmentUI.png" color="163,73,764,255" origin="0,0" sourcerect="998,0,80,97" />
+  </Affliction>
+  <Affliction name="" identifier="rfractaldata" type="augment" limbspecific="false" indicatorlimb="Torso" healableinmedicalclinic="false" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="80,145,155" description="">
+    <Effect minstrength="0" maxstrength="100">
+      <StatValue stattype="RepairSpeed" minvalue="0.05" maxvalue="0.5" />
+      <StatValue stattype="SwimmingSpeed" minvalue="0.1" maxvalue="1.0" />
+      <StatValue stattype="WeaponsSkillBonus" minvalue="1" maxvalue="10" />
+    </Effect>
+    <icon texture="%ModDir%/UI/augmentUI.png" color="80,145,155,255" origin="0,0" sourcerect="185,0,81,97" />
+  </Affliction>
+  <Affliction name="" identifier="rhunterdata" type="augment" limbspecific="false" indicatorlimb="Torso" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231" description="">
+    <Effect minstrength="0" maxstrength="20">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="increasedmeleedamage_temporary" amount="20" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="20" maxstrength="40">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="increasedmeleedamage_temporary" amount="40" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="40" maxstrength="60">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="increasedmeleedamage_temporary" amount="60" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="60" maxstrength="80">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="increasedmeleedamage_temporary" amount="80" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="80" maxstrength="100">
+      <StatusEffect target="Character" type="OnDamaged">
+        <requiredaffliction type="damage" minstrength="5" />
+        <Affliction identifier="increasedmeleedamage_temporary" amount="100" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/UI/augmentUI.png" color="163,73,764,255" origin="0,0" sourcerect="998,0,80,97" />
+  </Affliction>
+  <Affliction name="" identifier="rthermaldata" type="augment" limbspecific="false" indicatorlimb="Torso" hideiconafterdelay="true" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231" description="">
+    <Effect minstrength="0" maxstrength="100">
+      <StatValue stattype="WeaponsSkillBonus" minvalue="1" maxvalue="10" />
+      <ResistanceFor type="burn" minresistance="0.1" maxresistance="0.3" />
+    </Effect>
+    <icon texture="%ModDir%/UI/augmentUI.png" color="163,73,764,255" origin="0,0" sourcerect="998,0,80,97" />
+  </Affliction>
+  <!--
+  
+  bonus afflictions for fun
+  
+  !-->
+  <Affliction name="" identifier="rsailormemory" type="augment" limbspecific="false" indicatorlimb="Head" hideiconafterdelay="true" healableinmedicalclinic="false" showiconthreshold="0" treatmentthreshold="100" maxstrength="100" iconcolors="102,139,183" description="">
+    <Effect minstrength="0" maxstrength="100">
+      <StatValue stattype="HelmSkillBonus" minvalue="1" maxvalue="25" />
+      <StatValue stattype="WeaponsSkillBonus" minvalue="1" maxvalue="15" />
+    </Effect>
+    <icon texture="%ModDir%/UI/augmentUI.png" color="102,139,183,255" origin="0,0" sourcerect="589,0,80,98" />
+  </Affliction>
+</Afflictions>

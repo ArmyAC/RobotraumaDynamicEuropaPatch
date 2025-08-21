@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!--
+  
+	Robot Genetics Items
+
+  !-->
+  <!-- /// Genetics - Tier 1 /// !-->
+  <Item name="" identifier="chipmoloch" variantof="chipdresist">
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
+    <InventoryIcon texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.robotmolochdata" effect="rmolochdata" />
+  </Item>
+  <Item name="" identifier="chipmollusc" variantof="chipdresist">
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
+    <InventoryIcon texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.robotmolluscdata" effect="rmolluscdata" />
+  </Item>
+  <Item name="" identifier="chipskitter" variantof="chipdresist">
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
+    <InventoryIcon texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.robotskitterdata" effect="rskitterdata" />
+  </Item>
+  <Item name="" identifier="chiphunter" variantof="chipdresist">
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
+    <InventoryIcon texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.robothunterdata" effect="rhunterdata" />
+  </Item>
+  <Item name="" identifier="chipfractal" variantof="chipdresist">
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
+    <InventoryIcon texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.robotfractaldata" effect="rfractaldata" />
+  </Item>
+  <Item name="" identifier="chipthermal" variantof="chipdresist">
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
+    <InventoryIcon texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.robotthermaldata" effect="rthermaldata" />
+  </Item>
+  <!--
+  
+  Bonus Drives for Fun
+  
+  !-->
+  <Item name="" identifier="chipsailormemory" variantof="chipdresist">
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0.05" />
+    <InventoryIcon texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Chipsets/Tier_Genetics.png" sourcerect="0,0,48,63" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.robotsailormemory" effect="rsailormemory" />
+  </Item>
+</Items>
